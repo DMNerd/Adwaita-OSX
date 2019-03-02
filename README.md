@@ -7,7 +7,7 @@ Based on USBA's Adwaita-OSX repository that sadly, hasn't been updated in over 8
 The difference with my repo is that I also made dark version and install scripts.
 
 ## Instalation
-The install script will install the them to either /usr/share/themes or home/.themes, depending on whether it was run as superuser. This way you can choose which you like better.
+The install script will install the themes to either /usr/share/themes or home/.themes, depending on whether it was run as superuser. This way you can choose which you like better.
 
 # Preview
 
