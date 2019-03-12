@@ -1,0 +1,8 @@
+.show-apps .overview-icon {
+  background-image: url("assets/launcher.svg") !important;
+  background-size: 49px;
+}
+
+.show-apps .show-apps-icon {
+  color: transparent;
+}
