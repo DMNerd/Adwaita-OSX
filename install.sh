@@ -10,8 +10,8 @@ if [ "$EUID" -ne 0 ]; then
 		mkdir Adwaita-dark-OSX
 		mv gtk-3.0 Adwaita-dark-OSX/
 		mv gtk-2.0 Adwaita-dark-OSX/
-		exit
 		echo "Repaired the installation"
+		exit
 	else
 		echo "Everithing in order"	
 		exit
@@ -27,8 +27,8 @@ else
 		mkdir Adwaita-dark-OSX
 		mv gtk-3.0 Adwaita-dark-OSX/
 		mv gtk-2.0 Adwaita-dark-OSX/
-		exit
 		echo "Repaired the installation"
+		exit
 	else
 		echo "Everithing in order"	
 		exit
