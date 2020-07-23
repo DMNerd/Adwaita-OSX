@@ -9,7 +9,6 @@ if [ "$EUID" -ne 0 ]; then
 		echo "Seems like the installation needs repairing"
 		mkdir Adwaita-dark-OSX
 		mv gtk-3.0 Adwaita-dark-OSX/
-		mv gtk-2.0 Adwaita-dark-OSX/
 		echo "Repaired the installation"
 		exit
 	else
@@ -26,7 +25,6 @@ else
 		echo "Seems like the installation needs repairing"
 		mkdir Adwaita-dark-OSX
 		mv gtk-3.0 Adwaita-dark-OSX/
-		mv gtk-2.0 Adwaita-dark-OSX/
 		echo "Repaired the installation"
 		exit
 	else
