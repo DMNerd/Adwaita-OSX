@@ -13,7 +13,7 @@ if [ "$EUID" -ne 0 ]; then
 		echo "Repaired the installation"
 		exit
 	else
-		echo "Everithing in order"	
+		echo "Everything in order"	
 		exit
 	fi
 else
@@ -30,7 +30,7 @@ else
 		echo "Repaired the installation"
 		exit
 	else
-		echo "Everithing in order"	
+		echo "Everything in order"	
 		exit
 	fi
 fi
